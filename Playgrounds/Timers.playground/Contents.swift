@@ -1,11 +1,9 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-
 protocol TimerSchedulable {
     var timeInterval: NSTimeInterval { get }
     var valid: Bool { get }
-    
     func fire()
     func invalidate()
 }
@@ -24,8 +22,8 @@ class Timer {
     private var _callback: TimerCallback
     private var _properties: Properties
     private lazy var _timer: NSTimer = { [unowned self] in
-       NSTimer(fireDate: self._properties.fireDate, interval: self._properties.interval, target: self, selector: Selector("timerTickCallback"), userInfo: self._properties.userInfo, repeats: self._properties.repeats)
-    }()
+        NSTimer(fireDate: self._properties.fireDate, interval: self._properties.interval, target: self, selector: "timerTickCallback:", userInfo: self._properties.userInfo, repeats: self._properties.repeats)
+        }()
     
     var fireDate: NSDate {
         set {
@@ -95,7 +93,7 @@ extension Timer {
         onRunLoop.addTimer(_timer, forMode: mode)
     }
     
-    private func timerTickCallback(sender: AnyObject) {
+    @objc private func timerTickCallback(sender: AnyObject) {
         _callback(self)
     }
 }
