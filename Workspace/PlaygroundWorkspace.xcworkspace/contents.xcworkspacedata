@@ -5,10 +5,10 @@
       location = "group:MyPlayground.playground">
    </FileRef>
    <FileRef
-      location = "group:Carthage/Checkouts/RxSwift/Rx.xcodeproj">
+      location = "group:../Carthage/Checkouts/RxSwift/Rx.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Carthage/Checkouts/Alamofire/Alamofire.xcodeproj">
+      location = "group:../Carthage/Checkouts/Alamofire/Alamofire.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:PlaygroundProject/PlaygroundProject.xcodeproj">

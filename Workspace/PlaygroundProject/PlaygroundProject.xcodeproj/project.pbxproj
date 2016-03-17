@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA426EBF1C9B2E4000F16A9D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA426EBB1C9B2E4000F16A9D /* Alamofire.framework */; };
+		AA426EC01C9B2E4000F16A9D /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA426EBC1C9B2E4000F16A9D /* RxBlocking.framework */; };
+		AA426EC11C9B2E4000F16A9D /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA426EBD1C9B2E4000F16A9D /* RxCocoa.framework */; };
+		AA426EC21C9B2E4000F16A9D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA426EBE1C9B2E4000F16A9D /* RxSwift.framework */; };
 		AA6070271C9B08FF00A8A6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6070261C9B08FF00A8A6E4 /* AppDelegate.swift */; };
 		AA6070291C9B08FF00A8A6E4 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6070281C9B08FF00A8A6E4 /* MasterViewController.swift */; };
 		AA60702B1C9B08FF00A8A6E4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60702A1C9B08FF00A8A6E4 /* DetailViewController.swift */; };
 		AA60702E1C9B08FF00A8A6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA60702C1C9B08FF00A8A6E4 /* Main.storyboard */; };
 		AA6070301C9B08FF00A8A6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA60702F1C9B08FF00A8A6E4 /* Assets.xcassets */; };
 		AA6070331C9B08FF00A8A6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6070311C9B08FF00A8A6E4 /* LaunchScreen.storyboard */; };
-		AA60703F1C9B092B00A8A6E4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA60703B1C9B092B00A8A6E4 /* Alamofire.framework */; };
-		AA6070401C9B092B00A8A6E4 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA60703C1C9B092B00A8A6E4 /* RxBlocking.framework */; };
-		AA6070411C9B092B00A8A6E4 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA60703D1C9B092B00A8A6E4 /* RxCocoa.framework */; };
-		AA6070421C9B092B00A8A6E4 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA60703E1C9B092B00A8A6E4 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA426EBB1C9B2E4000F16A9D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		AA426EBC1C9B2E4000F16A9D /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = ../../Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		AA426EBD1C9B2E4000F16A9D /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../../Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		AA426EBE1C9B2E4000F16A9D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../../Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		AA6070231C9B08FF00A8A6E4 /* PlaygroundProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6070261C9B08FF00A8A6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA6070281C9B08FF00A8A6E4 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -39,10 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA60703F1C9B092B00A8A6E4 /* Alamofire.framework in Frameworks */,
-				AA6070401C9B092B00A8A6E4 /* RxBlocking.framework in Frameworks */,
-				AA6070411C9B092B00A8A6E4 /* RxCocoa.framework in Frameworks */,
-				AA6070421C9B092B00A8A6E4 /* RxSwift.framework in Frameworks */,
+				AA426EBF1C9B2E4000F16A9D /* Alamofire.framework in Frameworks */,
+				AA426EC01C9B2E4000F16A9D /* RxBlocking.framework in Frameworks */,
+				AA426EC11C9B2E4000F16A9D /* RxCocoa.framework in Frameworks */,
+				AA426EC21C9B2E4000F16A9D /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,10 @@
 		AA60703A1C9B090900A8A6E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA426EBB1C9B2E4000F16A9D /* Alamofire.framework */,
+				AA426EBC1C9B2E4000F16A9D /* RxBlocking.framework */,
+				AA426EBD1C9B2E4000F16A9D /* RxCocoa.framework */,
+				AA426EBE1C9B2E4000F16A9D /* RxSwift.framework */,
 				AA60703B1C9B092B00A8A6E4 /* Alamofire.framework */,
 				AA60703C1C9B092B00A8A6E4 /* RxBlocking.framework */,
 				AA60703D1C9B092B00A8A6E4 /* RxCocoa.framework */,
@@ -165,10 +173,10 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/../Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/RxBlocking.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/../../Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/../../Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/../../Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/../../Carthage/Build/iOS/RxSwift.framework",
 			);
 			outputPaths = (
 			);
@@ -300,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../Carthage/Build/iOS",
+					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PlaygroundProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -315,7 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../Carthage/Build/iOS",
+					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PlaygroundProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
