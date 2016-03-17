@@ -63,3 +63,6 @@ fastlane/screenshots
 
 *.DS_Store
 
+# Ignore workspace changes
+Workspace/
+
