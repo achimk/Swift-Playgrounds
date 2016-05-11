@@ -16,6 +16,13 @@ func maximal(maximal: Int) -> Filter {
     }
 }
 
+func debug(prefix: String = "->") -> Filter {
+    return { val in
+        print("\(prefix) \(val)")
+        return val
+    }
+}
+
 func compose(lhs: Filter, rhs: Filter) -> Filter {
     return { val in
         rhs(lhs(val))
@@ -29,5 +36,5 @@ func >>> (lhs: Filter, rhs: Filter) -> Filter {
     }
 }
 
-let filter = minimal(10) >>> maximal(0)
-let result = filter(5)
+let filter = debug("start:") >>> minimal(10) >>> debug("min(10):") >>> maximal(0) >>> debug("max(0):")
+let result = filter(-1)
