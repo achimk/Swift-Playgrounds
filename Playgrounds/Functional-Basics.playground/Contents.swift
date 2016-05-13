@@ -30,7 +30,7 @@ func compose(lhs: Filter, rhs: Filter) -> Filter {
 }
 
 infix operator >>> { associativity left }
-func >>> (lhs: Filter, rhs: Filter) -> Filter {
+func >>> <T>(lhs: T -> T, rhs: T -> T) -> T -> T {
     return { val in
         rhs(lhs(val))
     }
